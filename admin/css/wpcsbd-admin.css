@@ -1,0 +1,315 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ #wpfooter {
+     bottom: inherit !important;
+ }
+ .wpcsbd-smaller-wrap img {
+	 height: 320px;
+     margin-left: -4px;
+ }
+ .wpcsbd-badge-preview-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+ .wpcsbd-setting-heading {
+	padding: 30px 0;
+    font-size: 32px;
+    margin-bottom: 10px;
+ }
+
+ .save-setting-btn .button-custom-setting {
+	 background-color: #3700B3;
+	 color:#fff;
+	 padding: 6px 50px;
+    font-size: 16px;
+ }
+
+ .wpcsbd-text-only-background-wrap{
+    height:400px;
+    margin-bottom:30px;
+}
+.wpcsbd-image-only-class-wrap{
+    height:400px;
+    margin-bottom:30px;
+}
+.wpcsbd-hide-radio-btn input[type="radio"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+.wpcsbd-hide-radio-btn:nth-of-type(8n + 1) {
+    clear: left;
+}
+.wpcsbd-hide-radio-btn {
+    position: relative;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 14.667%;
+    margin-right: 0;
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.wpcsbd-hide-radio-btn input[type=radio] + label {
+    width: 100%;
+    padding: 10px;
+    background-color: #eeeeee;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+label, #your-profile label + a {
+    vertical-align: middle;
+} 
+.wpcsbd-badge-field-all-section input, .wpcsbd-badge-field-all-section select {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.meta-box-sortables input {
+    vertical-align: middle;
+}
+input[type="radio"] {
+    border-radius: 50%;
+    margin-right: 0.25rem;
+    line-height: 0.71428571;
+} 
+.wpcsbd-hide-radio-btn img, .hide-radio label, .wpcsbd-image-only-class-wrap .wpcsbd-badge-option-all > label {
+    display: inline-block;
+    float: none;
+    width: 100%;
+} 
+
+.wpcsbd-badge-field-all-section {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.wpcsbd-hide-radio-btn input[type=radio]:checked + label, .wpcsbd-hide-radio-btn input[type=radio]:hover + label {
+    border: 3px solid #CCC;
+}
+.wpcsbd-badge-option-all {
+    position: relative;
+    padding-left: 278px;
+    margin-bottom: 35px;
+}
+ 
+ .icon-picker-container {
+	position: absolute;
+	width: 550px;
+	height: 290px;
+	font-size: 14px;
+	background-color:#fff;
+	-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	padding: 5px;
+	box-sizing: border-box;
+	z-index: 9999;
+}
+
+	.icon-picker-container ul {
+		margin: 0;
+		padding: 0;
+		margin-bottom: 10px;
+	}
+
+		.icon-picker-container ul li a span {
+			width: 20px;
+			height: 20px;
+			font-size: 20px;
+			display: block;
+			text-align: left;
+		}
+
+		.icon-picker-container ul li {
+			display: inline-block;
+			margin: 5px;
+			float: left;
+		}
+
+			.icon-picker-container ul li a {
+				display: block;
+				text-decoration: none;
+				color:#373737;
+				padding: 6px 10px;
+				border: 1px solid #eee;
+			}
+
+				.icon-picker-container ul li a:hover {
+					border-color:#999;
+					background: #efefef;
+				}
+
+	.icon-picker-control {
+		height:32px;
+		height:64px;
+	}
+
+		.icon-picker-control a {
+			padding:5px;
+			text-decoration: none;
+			line-height: 32px;
+			width:25px;
+		}
+
+			.icon-picker-control a span {
+				display: inline;
+				vertical-align: middle;
+			}
+
+		.icon-picker-control input {
+			width:200px;
+		}
+		.icon-picker-control p {
+			text-align: left;
+			margin: 0;
+			padding: 3px 10px;
+		}
+		.icon-picker-control select {
+			margin: 0 auto;
+			display: inline-block;
+			width: auto;
+		}
+	
+	/* Preview */	
+	div.button.icon-picker {
+		font-size: 24px;
+		height: 31px;
+		width: 45px;
+		margin: 0;
+		padding: 0;
+		line-height: 31px;
+		text-align: center;
+	}
+.icon-picker-close{
+    float:right;
+    display:inline-block;
+    padding:2px;
+    background:#ccc;
+    cursor:pointer;
+    font-weight: 600;
+}
+
+ .wpcsbd-settings-wrapper .wpcsbd-settings-tab{
+    margin-bottom: 1px;
+    display:inline-block;
+    width:100%;
+    border-bottom: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+.wpcsbd-settings-wrapper .wpcsbd-settings-tab li{
+    float:left;
+    padding:9px 10px;
+    background:#eee;
+    cursor:pointer;
+    margin-bottom:-1px;
+    border:1px solid #ccc;
+    border-left:0;
+}
+.wpcsbd-settings-wrapper .wpcsbd-settings-tab li:nth-of-type(1){
+    border-left:1px solid #ccc;
+}
+.wpcsbd-settings-wrapper .wpcsbd-settings-tab li.wpcsbd-settings-tab-active{
+    border-bottom:1px solid #fff;
+    background:#fff;
+}
+.wpcsbd-badge-tab-setting-wrap {
+    display:none;
+}
+.wpcsbd-badge-tab-setting-wrap.wpcsbd-active-badge-setting{
+    display:block;
+    padding: 20px;
+    background: #fff;
+}
+
+.wpcsbd-settings-tab li.wpcsbd-settings-tabs-click{
+    background-color: rgba(234, 238, 251, 0.72);
+    color: #2A5279;
+    /* padding: 6px 20px; */
+    padding: 16px 40px 14px 40px;
+    line-height: 1;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    outline: none;
+    border: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin: 0 5px 0 0;
+}
+.wpcsbd-settings-tab li.wpcsbd-settings-tabs-click.wpcsbd-settings-tab-active{
+    background: #3700B3 !important;
+    color: #FFF;
+}
+
+.wpcsbd-settings-tab li.wpcsbd-settings-tabs-click span{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.wpcsbd-settings-tab li.wpcsbd-settings-tabs-click span.icon.icon-basic-bookmark{
+    margin-right: 2px;
+}
+.wpcsbd-settings-tab li.wpcsbd-settings-tabs-click span.icon:before{
+    font-size: 18px;
+    font-weight: 600 !important;
+}
+
+.wpcsbd-badge-option-all {
+    position: relative;
+    padding-left: 278px;
+    margin-bottom: 35px;
+}
+.wpcsbd-badge-option-all > label{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    font-weight: 500;
+    font-size: 15px;
+    color: #333;
+}
+.wpcsbd-badge-field-all-section > label{
+    display: block;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    width: 100%;
+    margin-bottom: 8px;
+} 
+
+img.wpcsbd-live-image {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.meta-box-sortables input {
+    vertical-align: middle;
+    padding: 8px 20px;
+    border-color: #eaeaea;
+}
+.wpcsbd-badge-field-all-section input, .wpcsbd-badge-field-all-section select {
+    padding: 8px 40px;
+    border-color: #eaeaea;
+}
